@@ -9,7 +9,12 @@
   </head>
 
   <body>
-    <h1><%= t('welcome') %></h1>
+    <div>
+      <%= link_to 'Home', hello_index_path %>
+      <%= link_to 'About', hello_about_path %>
+    </div>
+    <h1><%= t('hello') %></h1>
     <%= yield %>
+    <%= render 'shared/change_locale' %>
   </body>
 </html>

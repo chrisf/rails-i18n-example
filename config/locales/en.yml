@@ -31,3 +31,7 @@
 
 en:
   hello: "Hello world"
+
+  page:
+    home: "Welcome to the home page"
+    about: "This is the about page"
